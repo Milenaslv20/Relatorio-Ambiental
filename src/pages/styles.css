@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:wght@200&family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+.tree_home{
+  width: fit-content;
+  position: absolute;
+  top: 10vh;
+  left: 119.5vh;
+}
+
+.gradient{
+  padding: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-image: linear-gradient(#02E6D1, #07465B, #091C2A);
+}
+
+.arrow_right{
+  position: absolute;
+  right: 0;
+  float: right;
+  top: 95vh;
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+.button_project{
+  button{
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    left: 180vh;
+    top: 35px;
+    border: 0.5px solid #fff;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Montserrat Subrayada";
+    font-weight: 700;
+    font-style: normal;
+    transition: 0.9s;
+  }
+  .button:hover{
+    background-color: #ffffff3a;
+  }
+}
+
+.texts{
+  margin-left: 14vh;
+  .titulo{
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 12vh;
+  }
+  .texto{
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .projeto_doutorado{
+    margin-top: 75px;
+    margin-bottom: 90px;
+    font-size: 20px;
+    font-family: "Montserrat Subrayada";
+    font-weight: 700;
+    font-style: normal;
+  }
+}

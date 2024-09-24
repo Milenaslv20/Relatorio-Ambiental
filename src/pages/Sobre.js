@@ -6,6 +6,7 @@ function Sobre() {
     <div>
         <h1>Sobre</h1>
         <Link to="/">ir para home</Link>
+        <Link to="/tree">ir para tree</Link>
     </div>
   )
 }
