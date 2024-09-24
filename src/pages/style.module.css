@@ -2,24 +2,285 @@
 
 
 /* ! STYLES TREE PAGE */
-.tree_home{
-  width: fit-content;
-  position: absolute;
-  top: 10vh;
-  right: 0;
+.tree_section{
+  .tree_home{
+    width: fit-content;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+  }
+
+  .button_project{
+    button{
+      color: #fff;
+      width: 200px;
+      height: 50px;
+      position: absolute;
+      z-index: 10;
+      right: 0;
+      margin-right: 10vh;
+      top: 35px;
+      border: 0.5px solid #fff;
+      cursor: pointer;
+      background-color: transparent;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: "Montserrat Subrayada";
+      font-weight: 700;
+      font-style: normal;
+      transition: 0.9s;
+    }
+    .button:hover{
+      background-color: #ffffff3a;
+    }
+  }
+
+  .texts{
+    margin-left: 14vh;
+    .titulo{
+      font-size: 35px;
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      margin-bottom: 12vh;
+    }
+    .texto{
+      font-size: 25px;
+      font-family: "Montserrat Alternates", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    .projeto_doutorado{
+      margin-top: 75px;
+      margin-bottom: 90px;
+      font-size: 20px;
+      font-family: "Montserrat Subrayada";
+      font-weight: 700;
+      font-style: normal;
+    }
+  }
+
+  .arrow_right{
+    position: absolute;
+    right: 0;
+    float: right;
+    margin-right: 5vh;
+    top: 50vh;
+  }
 }
 
 
-.button_project{
-  button{
+/* ! STYLES INDUSTRY PAGE */
+.industry_section{
+  .texto{
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+    .text{
+      text-align: right;
+      margin-top: 12vh;
+      margin-right: 25vh;
+    }
+
+    .list{
+      position: absolute;
+      right: 25vh;
+      margin-top: 50px;
+    }
+  }
+
+  .line2{
+    position: absolute;
+    top: 118vh;
+  }
+
+  .arrow_left{
+    position: absolute;
+    margin-left: 4vh;
+    top: 50vh;
+  }
+  .arrow_right{
+    position: absolute;
+    right: 0;
+    float: right;
+    margin-right: 5vh;
+    top: 50vh;
+  }
+}
+
+
+/* ! STYLES TALK PAGE */
+.talk_section{
+  .texto{
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 20vh;
+    margin-top: 12vh;
+
+    .text{
+      margin-right: 20vh;
+      width: 750px;
+    }
+
+    .list{
+      margin-top: 50px;
+      width: 750px;
+    }
+
+    li{
+      margin-top: 25px;
+    }
+  }
+
+  .gradient{
+    padding: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-image: linear-gradient(#02E6D1, #07465B, #091C2A);
+  }
+
+  .img_talk{
+    right: 0;
+    float: right;
+    margin-top: -80vh;
+  }
+
+  .arrow_left{
+    position: absolute;
+    margin-left: 4vh;
+    top: 50vh;
+  }
+  .arrow_right{
+    position: absolute;
+    right: 0;
+    float: right;
+    margin-right: 5vh;
+    top: 50vh;
+  }
+}
+
+
+/* ! STYLES APRESENTATION PAGE */
+.apresentation_section{
+  .texto{
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 20vh;
+  
+    .text{
+      margin-top: 12vh;
+      margin-left: 25vh;
+      width: 800px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+  
+    .list_1{
+      margin-top: 70px;
+      width: 600px;
+    }
+    .list_2{
+      right: 0;
+      float: right;
+      margin-top: -440px;
+      left: 112vh;
+      position: absolute;
+      width: 600px;
+    }
+  }
+  
+  .img_apresentation{
+    margin-left: 85px;
+  }
+  
+  .line2{
+    margin-top: -140px;
+  }
+  
+  .arrow_left{
+    position: absolute;
+    margin-left: 4vh;
+    top: 50vh;
+  }
+  .arrow_right{
+    position: absolute;
+    right: 0;
+    float: right;
+    margin-right: 5vh;
+    top: 50vh;
+  }
+}
+
+
+/* ! STYLES PROJECT PAGE */
+.project_section{
+  .texto{
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 25vh;
+  
+    .text{
+      margin-top: 12vh;
+      width: 1000px;
+      margin-bottom: 50px;
+    }
+  
+  }
+  
+  .img_apresentation2{
+    right: 0;
+    float: right;
+  }
+  
+  .button_project{
+    button{
+      color: #fff;
+      width: 300px;
+      height: 50px;
+      position: absolute;
+      left: 180px;
+      margin-top: 45px;
+      border: 0.5px solid #fff;
+      cursor: pointer;
+      background-color: transparent;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: "Montserrat Subrayada";
+      font-weight: 700;
+      font-style: normal;
+      transition: 0.9s;
+    }
+    button:hover{
+      background-color: #ffffff3a;
+    }
+  }
+  
+  .gradient{
+    padding: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-image: linear-gradient(#02E6D1, #07465B, #091C2A);
+    height: 140%;
+  }
+  
+  .button_project2 a{
     color: #fff;
-    width: 200px;
+    width: 300px;
     height: 50px;
     position: absolute;
-    z-index: 10;
-    right: 0;
-    margin-right: 10vh;
-    top: 35px;
+    left: 180px;
+    margin-top: 45px;
     border: 0.5px solid #fff;
     cursor: pointer;
     background-color: transparent;
@@ -29,76 +290,29 @@
     font-weight: 700;
     font-style: normal;
     transition: 0.9s;
+    text-align: center;
+    align-content: center;
   }
-  .button:hover{
+  .button_project2 a:hover{
     background-color: #ffffff3a;
   }
-}
-
-.texts{
-  margin-left: 14vh;
-  .titulo{
-    font-size: 35px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    margin-bottom: 12vh;
-  }
-  .texto{
-    font-size: 25px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  .projeto_doutorado{
-    margin-top: 75px;
-    margin-bottom: 90px;
-    font-size: 20px;
-    font-family: "Montserrat Subrayada";
-    font-weight: 700;
-    font-style: normal;
-  }
-}
-
-
-/* ! STYLES INDUSTRY PAGE */
-.texto{
-  font-size: 25px;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-
-  .text{
-    text-align: right;
-    margin-top: 12vh;
-    margin-right: 20vh;
-  }
-
-  .list{
+  
+  .arrow_left{
     position: absolute;
-    right: 20vh;
-    margin-top: 50px;
+    margin-left: 4vh;
+    top: 50vh;
   }
-}
-
-.img_industry{
-  margin-top: -15vh
-}
-
-.line2{
-  margin-top: -140px;
-}
-
-.arrow_left{
-  position: absolute;
-  margin-left: 4vh;
-  top: 45vh;
-}
-.arrow_right{
-  position: absolute;
-  right: 0;
-  float: right;
-  margin-right: 5vh;
-  top: 50vh;
+  .arrow_right{
+    position: absolute;
+    right: 0;
+    float: right;
+    margin-right: 5vh;
+    top: 50vh;
+  }
+  
+  .line2{
+    position: absolute;
+    top: 115vh;
+  }
+  
 }

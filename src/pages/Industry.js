@@ -28,18 +28,18 @@ function Industry() {
             <li>Poluição</li>
           </ul>
         </div>
-
-        <Link to='/talk'><img src={arrowright} className={styles.arrow_right} width="60px" height="60px"/></Link>
-        <Link to='/'><img src={arrowleft} className={styles.arrow_left} width="60px" height="60px"/></Link>
-
-        <div className={styles.img_industry}>
-          <img src={industry}/>
-        </div>
-
-        <div className={styles.line2}>
-          <img src={line2} width="1513px"/>
-        </div>
       </div>
+
+      <Link to="/talk"><img src={arrowright} className={styles.arrow_right} width={60} height={60}/></Link>
+      <Link to="/"><img src={arrowleft} className={styles.arrow_left} width={60} height={60}/></Link>
+
+      <div className={styles.img_industry}>
+          <img src={industry} width={800} height={760}/>
+      </div>
+
+      <div className={styles.line2}>
+          <img src={line2} width={1580}/>
+        </div>
     </div>
   )
 }

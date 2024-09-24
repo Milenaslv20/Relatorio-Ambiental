@@ -11,15 +11,15 @@ function Tree() {
   return (
     <div className={styles.tree_section}>
         <div className={styles.tree_home}>
-            <img src={treeimg} width="700px"/>
+            <img src={treeimg} width={700}/>
         </div>
 
         <div className={styles.button_project}>
-            <a routerLink="/pwbi" target="_blank"><button>PROJETO SOLUÇÃO</button></a>
+            <Link to="pwbi" target="_blank"><button>PROJETO SOLUÇÃO</button></Link>
             <Link to="/tree"><button>PROJETO SOLUÇÃO</button></Link>
         </div>
 
-        <Link to="/industry"><img src={arrowright} className={styles.arrow_right} width="60px" height="60px"/></Link>
+        <Link to="/industry"><img src={arrowright} className={styles.arrow_right} width={60} height={60}/></Link>
 
         <div className={styles.texts}>
             <div className={styles.projeto_doutorado}>
@@ -45,7 +45,7 @@ function Tree() {
         </div>
 
         <div className={styles.line}>
-            <img className={styles.line1_1} src={line1} width="1513px"/>
+            <img className={styles.line1_1} src={line1} width={1513}/>
         </div>
     </div>
   )
