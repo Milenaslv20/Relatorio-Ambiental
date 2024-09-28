@@ -15,8 +15,7 @@ function Tree() {
         </div>
 
         <div className={styles.button_project}>
-            <Link to="pwbi" target="_blank"><button>PROJETO SOLUÇÃO</button></Link>
-            <Link to="/tree"><button>PROJETO SOLUÇÃO</button></Link>
+            <Link to="/pwbi" target="_blank"><button>PROJETO SOLUÇÃO</button></Link>
         </div>
 
         <Link to="/industry"><img src={arrowright} className={styles.arrow_right} width={60} height={60}/></Link>
