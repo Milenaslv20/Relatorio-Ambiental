@@ -6,7 +6,7 @@
   .tree_home{
     width: fit-content;
     position: absolute;
-    top: 10vh;
+    margin-top: 6vh;
     right: 0;
   }
 
@@ -162,6 +162,16 @@
     float: right;
     margin-right: 5vh;
     top: 50vh;
+  }
+
+  .img_industry{
+    width: fit-content;
+    position: absolute;
+    img{
+      position: absolute;
+      top: 5vh;
+    }
+
   }
 }
 
@@ -399,6 +409,7 @@
     left: 4vh;
     top: 3vh;
     -webkit-user-select: none;
+    user-select: none;
   }
 
 }
