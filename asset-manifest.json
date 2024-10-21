@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/relatorio_ambiental_react/static/css/main.9ee45c36.css",
-    "main.js": "/relatorio_ambiental_react/static/js/main.2492ba34.js",
+    "main.css": "/relatorio_ambiental_react/static/css/main.6c751c40.css",
+    "main.js": "/relatorio_ambiental_react/static/js/main.2aa0872d.js",
     "static/media/apresentation_project.png": "/relatorio_ambiental_react/static/media/apresentation_project.155b2fe9502d48c491bd.png",
     "static/media/apresentation.png": "/relatorio_ambiental_react/static/media/apresentation.c1eccc0019930f18d884.png",
     "static/media/tree.png": "/relatorio_ambiental_react/static/media/tree.5bff1b0befd1339782e0.png",
     "static/media/world.png": "/relatorio_ambiental_react/static/media/world.aecacfedfdc600dae8a3.png",
-    "static/media/smoke.png": "/relatorio_ambiental_react/static/media/smoke.1ce61de04b78aadda869.png",
+    "static/media/smoke.png": "/relatorio_ambiental_react/static/media/smoke.4937a01fd1f3f797cd08.png",
     "static/media/megaphone.png": "/relatorio_ambiental_react/static/media/megaphone.cf0c96123b459011fe59.png",
     "static/media/line_2.png": "/relatorio_ambiental_react/static/media/line_2.f4e69c6c2621f4deee71.png",
     "index.html": "/relatorio_ambiental_react/index.html",
-    "main.9ee45c36.css.map": "/relatorio_ambiental_react/static/css/main.9ee45c36.css.map",
-    "main.2492ba34.js.map": "/relatorio_ambiental_react/static/js/main.2492ba34.js.map"
+    "main.6c751c40.css.map": "/relatorio_ambiental_react/static/css/main.6c751c40.css.map",
+    "main.2aa0872d.js.map": "/relatorio_ambiental_react/static/js/main.2aa0872d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ee45c36.css",
-    "static/js/main.2492ba34.js"
+    "static/css/main.6c751c40.css",
+    "static/js/main.2aa0872d.js"
   ]
 }
