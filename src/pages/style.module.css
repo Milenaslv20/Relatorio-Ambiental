@@ -73,6 +73,7 @@
 
 /* ! STYLES INDUSTRY PAGE */
 .industry_section{
+  height: 100%;
   .texto{
     font-size: 25px;
     font-family: "Montserrat Alternates", sans-serif;
@@ -93,8 +94,7 @@
   }
 
   .line2{
-    position: absolute;
-    top: 118vh;
+    margin-top: -140px;
   }
 
   .arrow_left{
@@ -108,6 +108,10 @@
     float: right;
     margin-right: 5vh;
     top: 50vh;
+  }
+
+  .img_industry{
+    
   }
 }
 
@@ -187,7 +191,7 @@
   
     .text{
       margin-top: 12vh;
-      margin-left: 25vh;
+      margin-left: 35vh;
       width: 800px;
       text-align: center;
       margin-bottom: 50px;
@@ -213,6 +217,7 @@
   
   .line2{
     margin-top: -140px;
+    width: fit-content;
   }
   
   .arrow_left{

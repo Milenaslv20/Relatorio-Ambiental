@@ -38,7 +38,7 @@ function Apresentation() {
         </div>
 
         <div className={styles.line2}>
-            <img src={line2} width={1513}/>
+            <img src={line2} width={1613}/>
         </div>
     </div>
   )
