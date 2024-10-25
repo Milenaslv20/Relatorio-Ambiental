@@ -5,7 +5,6 @@ import styles from './style.module.css'
 import arrowleft from './img/arrow_left.png'
 import arrowright from './img/arrow_right.png'
 import apresentationproject from './img/apresentation_project.png'
-import line1 from './img/line_1.png'
 
 function Project() {
   return (
@@ -25,10 +24,6 @@ function Project() {
 
         <div className={styles.img_apresentation2}>
             <img src={apresentationproject}/>
-        </div>
-
-        <div className={styles.line2}>
-            <img src={line1} width={1513}/>
         </div>
     </div>
   )

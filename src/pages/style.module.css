@@ -93,10 +93,6 @@
     }
   }
 
-  .line2{
-    margin-top: -140px;
-  }
-
   .arrow_left{
     position: absolute;
     margin-left: 4vh;
@@ -111,7 +107,9 @@
   }
 
   .img_industry{
-    
+    img{
+      width: 100%;
+    }
   }
 }
 
@@ -212,12 +210,9 @@
   }
   
   .img_apresentation{
-    margin-left: 85px;
-  }
-  
-  .line2{
-    margin-top: -140px;
-    width: fit-content;
+    img{
+      width: 100%;
+    }
   }
   
   .arrow_left{
@@ -253,8 +248,9 @@
   }
   
   .img_apresentation2{
-    right: 0;
-    float: right;
+    img{
+      width: 100%;
+    }
   }
   
   .button_project{
@@ -324,12 +320,6 @@
     margin-right: 5vh;
     top: 50vh;
   }
-  
-  .line2{
-    position: absolute;
-    top: 115vh;
-  }
-  
 }
 
 
@@ -415,6 +405,10 @@
     top: 3vh;
     -webkit-user-select: none;
     user-select: none;
-  }
 
+    iframe{
+      width: 207vh;
+      height: 93vh;
+    }
+  }
 }

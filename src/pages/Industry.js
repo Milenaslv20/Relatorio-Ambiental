@@ -4,8 +4,7 @@ import styles from './style.module.css'
 
 import arrowleft from './img/arrow_left.png'
 import arrowright from './img/arrow_right.png'
-import industry from './img/smoke.png'
-import line2 from './img/line_2.png'
+import smoke from './img/smoke.png'
 
 
 function Industry() {
@@ -30,16 +29,12 @@ function Industry() {
         </div>
 
         <div className={styles.img_industry}>
-          <img src={industry} width={1000}/>
+          <img src={smoke}/>
         </div>
       </div>
 
       <Link to="/talk"><img src={arrowright} className={styles.arrow_right} width={60} height={60}/></Link>
       <Link to="/"><img src={arrowleft} className={styles.arrow_left} width={60} height={60}/></Link>
-
-      <div className={styles.line2}>
-        <img src={line2} width={1580}/>
-      </div>
     </div>
   )
 }

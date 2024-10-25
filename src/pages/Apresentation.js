@@ -36,10 +36,6 @@ function Apresentation() {
         <div className={styles.img_apresentation}>
             <img src={apresentation}/>
         </div>
-
-        <div className={styles.line2}>
-            <img src={line2} width={1613}/>
-        </div>
     </div>
   )
 }
