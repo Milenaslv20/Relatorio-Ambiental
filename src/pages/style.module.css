@@ -338,14 +338,18 @@
       font-optical-sizing: auto;
       font-weight: 600;
       font-style: normal;
-      margin-left: 55vh;
-      width: 100vh;
+      margin-left: 30%;
       margin-top: 12vh;
+
+      h1{
+        width: 100%;
+        align-self: center;
+      }
     }
   
     .texto{
       margin-top: 55px;
-      margin-left: 25vh;
+      margin-left: 15%;
       width: 800px;
       text-align: center;
     }
@@ -370,7 +374,7 @@
   
   .icon_home{
     position: absolute;
-    margin-left: 9vh;
+    margin-left: 9%;
     width: fit-content;
     top: 5vh;
     cursor: pointer;
