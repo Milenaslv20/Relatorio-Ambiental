@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/relatorio_ambiental_react/static/css/main.5545c124.css",
+    "main.css": "/relatorio_ambiental_react/static/css/main.4d64c983.css",
     "main.js": "/relatorio_ambiental_react/static/js/main.03633056.js",
     "static/media/apresentation_project.png": "/relatorio_ambiental_react/static/media/apresentation_project.8cdd745d7e8ff874e969.png",
     "static/media/apresentation.png": "/relatorio_ambiental_react/static/media/apresentation.0b09bff9e7ac8949ee2b.png",
@@ -10,11 +10,11 @@
     "static/media/megaphone.png": "/relatorio_ambiental_react/static/media/megaphone.cf0c96123b459011fe59.png",
     "static/media/line_2.png": "/relatorio_ambiental_react/static/media/line_2.f4e69c6c2621f4deee71.png",
     "index.html": "/relatorio_ambiental_react/index.html",
-    "main.5545c124.css.map": "/relatorio_ambiental_react/static/css/main.5545c124.css.map",
+    "main.4d64c983.css.map": "/relatorio_ambiental_react/static/css/main.4d64c983.css.map",
     "main.03633056.js.map": "/relatorio_ambiental_react/static/js/main.03633056.js.map"
   },
   "entrypoints": [
-    "static/css/main.5545c124.css",
+    "static/css/main.4d64c983.css",
     "static/js/main.03633056.js"
   ]
 }
