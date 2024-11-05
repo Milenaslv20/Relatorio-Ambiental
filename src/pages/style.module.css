@@ -130,21 +130,13 @@
     }
 
     .list{
-      margin-top: 50px;
+      margin-top: 49px;
       width: 750px;
     }
 
     li{
       margin-top: 25px;
     }
-  }
-
-  .gradient{
-    padding: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    background-image: linear-gradient(#02E6D1, #07465B, #091C2A);
   }
 
   .img_talk{
@@ -173,7 +165,12 @@
       position: absolute;
       top: 5vh;
     }
+  }
 
+  .line1{
+    img{
+      width: 100%;
+    }
   }
 }
 
@@ -338,8 +335,8 @@
       font-optical-sizing: auto;
       font-weight: 600;
       font-style: normal;
-      margin-left: 30%;
-      margin-top: 12vh;
+      margin-left: 34%;
+      margin-top: 10vh;
 
       h1{
         width: 100%;
@@ -348,15 +345,14 @@
     }
   
     .texto{
-      margin-top: 55px;
-      margin-left: 15%;
+      margin-left: 20%;
       width: 800px;
       text-align: center;
     }
   
     .thanks{
       position: absolute;
-      margin-top: 30vh;
+      margin-top: 13%;
       font-size: 30px;
       font-family: "Montserrat Subrayada";
       font-weight: 700;
@@ -376,7 +372,7 @@
     position: absolute;
     margin-left: 9%;
     width: fit-content;
-    top: 5vh;
+    top: 8%;
     cursor: pointer;
   }
   
@@ -402,16 +398,17 @@
   position: absolute;
   background-image: linear-gradient(#02E6D1, #07465B, #091C2A);
   height: 100%;
+  width: 100%;
 
   .pwbi{
     position: absolute;
-    left: 4vh;
+    left: 4%;
     top: 3vh;
     -webkit-user-select: none;
     user-select: none;
 
     iframe{
-      width: 207vh;
+      width: 590%;
       height: 93vh;
     }
   }

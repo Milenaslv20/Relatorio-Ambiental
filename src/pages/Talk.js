@@ -25,16 +25,17 @@ function Talk() {
             </div>
         </div>
 
-        <Link to="/apresentation"><img src={arrowright} className={styles.arrow_right} width={60} height={60}/></Link>
-        <Link to="/industry"><img src={arrowleft} className={styles.arrow_left} width={60} height={60}/></Link>
 
         <div className={styles.img_talk}>
             <img src={megaphone} width={600} height={650}/>
         </div>
 
         <div className={styles.line1}>
-            <img src={line1} width={1513}/>
+            <img src={line1}/>
         </div>
+
+        <Link to="/apresentation"><img src={arrowright} className={styles.arrow_right} width={60} height={60}/></Link>
+        <Link to="/industry"><img src={arrowleft} className={styles.arrow_left} width={60} height={60}/></Link>
     </div>
   )
 }

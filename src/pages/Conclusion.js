@@ -32,7 +32,6 @@ function Conclusion() {
           <div class="img_world">
             <img src={world} className={styles.img_world}/>
           </div>
-
         </div>
     </div>
   )
