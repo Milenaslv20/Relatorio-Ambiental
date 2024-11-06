@@ -48,7 +48,8 @@ Plataforma para hospedagem de código fonte e monitoramento de versão.
 ser disponibilizados para visualização pública, com utilização de build e deploy para controle de versão.
 
 ## Conclusão
-É significativo ressalta a importância fundamental de monitorar crimes ambientais para a preservação dos recursos naturais e a manutenção do equilíbrio ecológico. O monitoramento contínuo, apoiado por tecnologias, permite a identificação rápida de infrações e facilita a tomada de decisões informadas para a proteção do meio ambiente. Nesse sentido, o desenvolvimento de software especializado se torna um instrumento indispensável, pois permite a criação de soluções personalizadas e eficientes para detectar, rastrear e combater crimes ambientais em tempo real.\
+É significativo ressalta a importância fundamental de monitorar crimes ambientais para a preservação dos recursos naturais e a manutenção do equilíbrio ecológico. O monitoramento contínuo, apoiado por tecnologias, permite a identificação rápida de infrações e facilita a tomada de decisões informadas para a proteção do meio ambiente. Nesse sentido, o desenvolvimento de software especializado se torna um instrumento indispensável, pois permite a criação de soluções personalizadas e eficientes para detectar, rastrear e combater crimes ambientais em tempo real.
+
 O desenvolvimento de projetos de software voltados para o monitoramento ambiental contribui significativamente para a automação de processos, a coleta de dados em grande escala e a análise preditiva de possíveis áreas de risco. Além disso, sistemas tecnológicos bem projetados podem otimizar a gestão de informações, melhorando a coordenação entre autoridades, pesquisadores e a sociedade civil. 
 
 ## Autores
