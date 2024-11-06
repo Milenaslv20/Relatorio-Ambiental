@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/relatorio_ambiental_react/static/css/main.250efdc4.css",
-    "main.js": "/relatorio_ambiental_react/static/js/main.13496bbd.js",
+    "main.css": "/relatorio_ambiental_react/static/css/main.77f012a2.css",
+    "main.js": "/relatorio_ambiental_react/static/js/main.a0a15991.js",
     "static/media/apresentation_project.png": "/relatorio_ambiental_react/static/media/apresentation_project.8cdd745d7e8ff874e969.png",
     "static/media/apresentation.png": "/relatorio_ambiental_react/static/media/apresentation.0b09bff9e7ac8949ee2b.png",
     "static/media/smoke.png": "/relatorio_ambiental_react/static/media/smoke.23e3256b9eec7af515ce.png",
@@ -10,11 +10,11 @@
     "static/media/megaphone.png": "/relatorio_ambiental_react/static/media/megaphone.cf0c96123b459011fe59.png",
     "static/media/line_2.png": "/relatorio_ambiental_react/static/media/line_2.f4e69c6c2621f4deee71.png",
     "index.html": "/relatorio_ambiental_react/index.html",
-    "main.250efdc4.css.map": "/relatorio_ambiental_react/static/css/main.250efdc4.css.map",
-    "main.13496bbd.js.map": "/relatorio_ambiental_react/static/js/main.13496bbd.js.map"
+    "main.77f012a2.css.map": "/relatorio_ambiental_react/static/css/main.77f012a2.css.map",
+    "main.a0a15991.js.map": "/relatorio_ambiental_react/static/js/main.a0a15991.js.map"
   },
   "entrypoints": [
-    "static/css/main.250efdc4.css",
-    "static/js/main.13496bbd.js"
+    "static/css/main.77f012a2.css",
+    "static/js/main.a0a15991.js"
   ]
 }
