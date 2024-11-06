@@ -68,6 +68,12 @@
     margin-right: 5vh;
     top: 50vh;
   }
+
+  .button_project{
+    button:hover{
+      background-color: #ffffff3a;
+    }
+  }
 }
 
 
@@ -121,7 +127,7 @@
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 200;
     font-style: normal;
-    margin-left: 20vh;
+    margin-left: 26vh;
     margin-top: 12vh;
 
     .text{
@@ -142,7 +148,7 @@
   .img_talk{
     right: 0;
     float: right;
-    margin-top: -80vh;
+    margin-top: -65vh;
   }
 
   .arrow_left{
@@ -158,18 +164,10 @@
     top: 50vh;
   }
 
-  .img_industry{
-    width: fit-content;
-    position: absolute;
-    img{
-      position: absolute;
-      top: 5vh;
-    }
-  }
-
   .line1{
     img{
       width: 100%;
+      margin-top: 9vh;
     }
   }
 }
@@ -250,44 +248,12 @@
     }
   }
   
-  .button_project{
-    button{
-      color: #fff;
-      width: 300px;
-      height: 50px;
-      position: absolute;
-      left: 180px;
-      margin-top: 45px;
-      border: 0.5px solid #fff;
-      cursor: pointer;
-      background-color: transparent;
-      text-decoration: none;
-      font-size: 15px;
-      font-family: "Montserrat Subrayada";
-      font-weight: 700;
-      font-style: normal;
-      transition: 0.9s;
-    }
-    button:hover{
-      background-color: #ffffff3a;
-    }
-  }
-  
-  .gradient{
-    padding: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    background-image: linear-gradient(#02E6D1, #07465B, #091C2A);
-    height: 100%;
-  }
-  
   .button_project2 a{
     color: #fff;
     width: 300px;
     height: 50px;
     position: absolute;
-    left: 180px;
+    left: 25vh;
     margin-top: 45px;
     border: 0.5px solid #fff;
     cursor: pointer;
@@ -360,14 +326,6 @@
     }
   }
   
-  .gradient{
-    padding: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    background-image: linear-gradient(#02E6D1, #07465B, #091C2A);
-  }
-  
   .icon_home{
     position: absolute;
     margin-left: 9%;
@@ -396,7 +354,7 @@
   left: 0;
   right: 0;
   position: absolute;
-  background-image: linear-gradient(#02E6D1, #07465B, #091C2A);
+  background-image: linear-gradient(#109285, #07465B, #091C2A);
   height: 100%;
   width: 100%;
 

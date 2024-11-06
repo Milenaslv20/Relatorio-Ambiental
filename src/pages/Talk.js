@@ -27,7 +27,7 @@ function Talk() {
 
 
         <div className={styles.img_talk}>
-            <img src={megaphone} width={600} height={650}/>
+            <img src={megaphone} width={700} height={750}/>
         </div>
 
         <div className={styles.line1}>
