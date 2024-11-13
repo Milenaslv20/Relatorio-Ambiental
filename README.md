@@ -6,7 +6,7 @@ o meio ambiente.
 
 ## Implementação
 
-Para o acesso ao projeto é disponibilizado o seguinte link https://milenaslv20.github.io/relatorio_ambiental_react/ onde
+Para o acesso ao projeto é disponibilizado o seguinte link https://milenaslv20.github.io/Relatorio-Ambiental/ onde
 é possível visualizar públicamente na web e realizar as interações.
 
 ## Ferramentas Utilizadas
