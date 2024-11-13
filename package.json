@@ -2,7 +2,7 @@
   "name": "relatorio_ambiental_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://milenaslv20.github.io/relatorio_ambiental_react/",
+  "homepage": "https://milenaslv20.github.io/Relatorio-Ambiental/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
