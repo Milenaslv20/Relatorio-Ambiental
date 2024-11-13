@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/relatorio_ambiental_react/static/css/main.77f012a2.css",
-    "main.js": "/relatorio_ambiental_react/static/js/main.a0a15991.js",
-    "static/media/apresentation_project.png": "/relatorio_ambiental_react/static/media/apresentation_project.8cdd745d7e8ff874e969.png",
-    "static/media/apresentation.png": "/relatorio_ambiental_react/static/media/apresentation.0b09bff9e7ac8949ee2b.png",
-    "static/media/smoke.png": "/relatorio_ambiental_react/static/media/smoke.23e3256b9eec7af515ce.png",
-    "static/media/tree.png": "/relatorio_ambiental_react/static/media/tree.5bff1b0befd1339782e0.png",
-    "static/media/world.png": "/relatorio_ambiental_react/static/media/world.aecacfedfdc600dae8a3.png",
-    "static/media/megaphone.png": "/relatorio_ambiental_react/static/media/megaphone.cf0c96123b459011fe59.png",
-    "static/media/line_2.png": "/relatorio_ambiental_react/static/media/line_2.f4e69c6c2621f4deee71.png",
-    "index.html": "/relatorio_ambiental_react/index.html",
-    "main.77f012a2.css.map": "/relatorio_ambiental_react/static/css/main.77f012a2.css.map",
-    "main.a0a15991.js.map": "/relatorio_ambiental_react/static/js/main.a0a15991.js.map"
+    "main.css": "/Relatorio-Ambiental/static/css/main.77f012a2.css",
+    "main.js": "/Relatorio-Ambiental/static/js/main.f7fb2b4c.js",
+    "static/media/apresentation_project.png": "/Relatorio-Ambiental/static/media/apresentation_project.8cdd745d7e8ff874e969.png",
+    "static/media/apresentation.png": "/Relatorio-Ambiental/static/media/apresentation.0b09bff9e7ac8949ee2b.png",
+    "static/media/smoke.png": "/Relatorio-Ambiental/static/media/smoke.23e3256b9eec7af515ce.png",
+    "static/media/tree.png": "/Relatorio-Ambiental/static/media/tree.5bff1b0befd1339782e0.png",
+    "static/media/world.png": "/Relatorio-Ambiental/static/media/world.aecacfedfdc600dae8a3.png",
+    "static/media/megaphone.png": "/Relatorio-Ambiental/static/media/megaphone.cf0c96123b459011fe59.png",
+    "static/media/line_2.png": "/Relatorio-Ambiental/static/media/line_2.f4e69c6c2621f4deee71.png",
+    "index.html": "/Relatorio-Ambiental/index.html",
+    "main.77f012a2.css.map": "/Relatorio-Ambiental/static/css/main.77f012a2.css.map",
+    "main.f7fb2b4c.js.map": "/Relatorio-Ambiental/static/js/main.f7fb2b4c.js.map"
   },
   "entrypoints": [
     "static/css/main.77f012a2.css",
-    "static/js/main.a0a15991.js"
+    "static/js/main.f7fb2b4c.js"
   ]
 }
