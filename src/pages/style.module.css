@@ -1,373 +1,454 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:wght@200&family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@0,500;1,500&display=swap');
 
 
+/* ! ESTILOS COMPARTILHADOS */
+.tree_section,
+.industry_section,
+.talk_section,
+.apresentation_section,
+.project_section,
+.conclusion_section{
+  /* Espaço lateral que deixa lugar para as setas de navegação */
+  --gutter: clamp(16px, 9vw, 160px);
+  --text-size: clamp(16px, 0.85rem + 0.6vw, 25px);
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: clamp(24px, 6vh, 72px) var(--gutter) 0;
+  overflow-x: hidden;
+  font-size: var(--text-size);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+.tree_section img,
+.industry_section img,
+.talk_section img,
+.apresentation_section img,
+.project_section img,
+.conclusion_section img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.arrow_left,
+.arrow_right{
+  position: fixed;
+  top: 50%;
+  z-index: 20;
+  width: clamp(36px, 4vw, 60px) !important;
+  height: auto;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.arrow_left{
+  left: 2vw;
+}
+.arrow_right{
+  right: 2vw;
+}
+
+/* Imagens que ocupam toda a largura da tela no rodapé da página */
+.img_industry,
+.img_apresentation,
+.img_apresentation2,
+.line,
+.line1{
+  margin-left: calc(-1 * var(--gutter));
+  margin-right: calc(-1 * var(--gutter));
+}
+.img_industry img,
+.img_apresentation img,
+.img_apresentation2 img,
+.line img,
+.line1 img{
+  width: 100%;
+}
+
+.button_project button,
+.button_project2 a{
+  display: inline-block;
+  padding: 14px 24px;
+  border: 0.5px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  font-size: 15px;
+  font-family: "Montserrat Subrayada";
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.9s;
+}
+.button_project button:hover,
+.button_project2 a:hover{
+  background-color: #ffffff3a;
+}
+
+
 /* ! STYLES TREE PAGE */
-.tree_section{
-  .tree_home{
-    width: fit-content;
-    position: absolute;
-    margin-top: 6vh;
-    right: 0;
-  }
+.tree_section .topbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.tree_section .projeto_doutorado p{
+  margin: 0;
+  font-size: clamp(14px, 1.2vw, 20px);
+  font-family: "Montserrat Subrayada";
+  font-weight: 700;
+}
 
-  .button_project{
-    button{
-      color: #fff;
-      width: 200px;
-      height: 50px;
-      position: absolute;
-      z-index: 10;
-      right: 0;
-      margin-right: 10vh;
-      top: 35px;
-      border: 0.5px solid #fff;
-      cursor: pointer;
-      background-color: transparent;
-      text-decoration: none;
-      font-size: 15px;
-      font-family: "Montserrat Subrayada";
-      font-weight: 700;
-      font-style: normal;
-      transition: 0.9s;
-    }
-    .button:hover{
-      background-color: #ffffff3a;
-    }
-  }
+.tree_section .hero{
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(24px, 4vw, 80px);
+  padding: 4vh 0;
+}
 
-  .texts{
-    margin-left: 14vh;
-    .titulo{
-      font-size: 35px;
-      font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 600;
-      font-style: normal;
-      margin-bottom: 12vh;
-    }
-    .texto{
-      font-size: 25px;
-      font-family: "Montserrat Alternates", sans-serif;
-      font-weight: 200;
-      font-style: normal;
-    }
-    .projeto_doutorado{
-      margin-top: 75px;
-      margin-bottom: 90px;
-      font-size: 20px;
-      font-family: "Montserrat Subrayada";
-      font-weight: 700;
-      font-style: normal;
-    }
-  }
+.tree_section .titulo h1{
+  margin: 0 0 clamp(20px, 5vh, 56px);
+  font-size: clamp(28px, 1.2rem + 2.2vw, 60px);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  /* O título só quebra nos <br/> */
+  white-space: nowrap;
+}
+.tree_section .texto p{
+  max-width: 34em;
+  margin: 0;
+}
 
-  .arrow_right{
-    position: absolute;
-    right: 0;
-    float: right;
-    margin-right: 5vh;
-    top: 50vh;
-  }
+/* A imagem da árvore é cortada à direita, então ela encosta na borda da tela */
+.tree_section .tree_home{
+  margin-right: calc(-1 * var(--gutter));
+}
+.tree_section .tree_home img{
+  width: 100%;
+  /* A árvore nunca fica mais alta que a área disponível da tela */
+  max-height: 78vh;
+  object-fit: contain;
+  object-position: right center;
+}
 
-  .button_project{
-    button:hover{
-      background-color: #ffffff3a;
-    }
-  }
+/* Linha decorativa no rodapé, no fluxo da página: não sobrepõe o conteúdo */
+.tree_section .line img{
+  max-height: 18vh;
+  object-fit: fill;
 }
 
 
 /* ! STYLES INDUSTRY PAGE */
-.industry_section{
-  height: 100%;
-  .texto{
-    font-size: 25px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+.industry_section .texto{
+  margin-left: auto;
+  text-align: right;
+}
+.industry_section .text p{
+  max-width: 45em;
+  margin-top: 0;
+}
+.industry_section .list{
+  display: flex;
+  justify-content: flex-end;
+}
+.industry_section .list ul{
+  text-align: left;
+}
 
-    .text{
-      text-align: right;
-      margin-top: 12vh;
-      margin-right: 25vh;
-    }
-
-    .list{
-      position: absolute;
-      right: 25vh;
-      margin-top: 50px;
-    }
-  }
-
-  .arrow_left{
-    position: absolute;
-    margin-left: 4vh;
-    top: 50vh;
-  }
-  .arrow_right{
-    position: absolute;
-    right: 0;
-    float: right;
-    margin-right: 5vh;
-    top: 50vh;
-  }
-
-  .img_industry{
-    img{
-      width: 100%;
-    }
-  }
+.industry_section .img_industry{
+  margin-top: auto;
 }
 
 
 /* ! STYLES TALK PAGE */
 .talk_section{
-  .texto{
-    font-size: 25px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin-left: 26vh;
-    margin-top: 12vh;
+  flex-flow: row wrap;
+  align-items: center;
+}
 
-    .text{
-      margin-right: 20vh;
-      width: 750px;
-    }
+.talk_section .texto{
+  flex: 1 1 55%;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+.talk_section .text p{
+  margin-top: 0;
+}
+.talk_section li{
+  margin-top: 25px;
+}
 
-    .list{
-      margin-top: 49px;
-      width: 750px;
-    }
+.talk_section .img_talk{
+  flex: 1 1 35%;
+  margin-right: calc(-1 * var(--gutter));
+}
+.talk_section .img_talk img{
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+}
 
-    li{
-      margin-top: 25px;
-    }
-  }
-
-  .img_talk{
-    right: 0;
-    float: right;
-    margin-top: -65vh;
-  }
-
-  .arrow_left{
-    position: absolute;
-    margin-left: 4vh;
-    top: 50vh;
-  }
-  .arrow_right{
-    position: absolute;
-    right: 0;
-    float: right;
-    margin-right: 5vh;
-    top: 50vh;
-  }
-
-  .line1{
-    img{
-      width: 100%;
-      margin-top: 9vh;
-    }
-  }
+.talk_section .line1{
+  flex-basis: 100%;
+  align-self: flex-end;
 }
 
 
 /* ! STYLES APRESENTATION PAGE */
-.apresentation_section{
-  .texto{
-    font-size: 25px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin-left: 20vh;
-  
-    .text{
-      margin-top: 12vh;
-      margin-left: 35vh;
-      width: 800px;
-      text-align: center;
-      margin-bottom: 50px;
-    }
-  
-    .list_1{
-      margin-top: 70px;
-      width: 600px;
-    }
-    .list_2{
-      right: 0;
-      float: right;
-      margin-top: -440px;
-      left: 112vh;
-      position: absolute;
-      width: 600px;
-    }
-  }
-  
-  .img_apresentation{
-    img{
-      width: 100%;
-    }
-  }
-  
-  .arrow_left{
-    position: absolute;
-    margin-left: 4vh;
-    top: 50vh;
-  }
-  .arrow_right{
-    position: absolute;
-    right: 0;
-    float: right;
-    margin-right: 5vh;
-    top: 50vh;
-  }
+.apresentation_section .text p{
+  max-width: 800px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.apresentation_section .lists{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 clamp(24px, 4vw, 80px);
+}
+.apresentation_section .lists ul{
+  margin: 0;
+}
+.apresentation_section .lists li{
+  margin-bottom: 1em;
+}
+
+.apresentation_section .img_apresentation{
+  margin-top: auto;
 }
 
 
 /* ! STYLES PROJECT PAGE */
-.project_section{
-  .texto{
-    font-size: 25px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin-left: 25vh;
-  
-    .text{
-      margin-top: 12vh;
-      width: 1000px;
-      margin-bottom: 50px;
-    }
-  
-  }
-  
-  .img_apresentation2{
-    img{
-      width: 100%;
-    }
-  }
-  
-  .button_project2 a{
-    color: #fff;
-    width: 300px;
-    height: 50px;
-    position: absolute;
-    left: 25vh;
-    margin-top: 45px;
-    border: 0.5px solid #fff;
-    cursor: pointer;
-    background-color: transparent;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: "Montserrat Subrayada";
-    font-weight: 700;
-    font-style: normal;
-    transition: 0.9s;
-    text-align: center;
-    align-content: center;
-  }
-  .button_project2 a:hover{
-    background-color: #ffffff3a;
-  }
-  
-  .arrow_left{
-    position: absolute;
-    margin-left: 4vh;
-    top: 50vh;
-  }
-  .arrow_right{
-    position: absolute;
-    right: 0;
-    float: right;
-    margin-right: 5vh;
-    top: 50vh;
-  }
+.project_section .text p{
+  max-width: 1000px;
+  margin-top: 0;
+}
+
+.project_section .button_project2{
+  margin: 20px 0 40px;
+}
+
+.project_section .img_apresentation2{
+  margin-top: auto;
 }
 
 
 /* ! STYLES CONCLUSION PAGE */
-.conclusion_section{
-  .texto{
-    font-size: 25px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin-left: 25vh;
-  
-    .title{
-      font-size: 35px;
-      font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 600;
-      font-style: normal;
-      margin-left: 34%;
-      margin-top: 10vh;
+.conclusion_section .texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
 
-      h1{
-        width: 100%;
-        align-self: center;
-      }
-    }
-  
-    .texto{
-      margin-left: 20%;
-      width: 800px;
-      text-align: center;
-    }
-  
-    .thanks{
-      position: absolute;
-      margin-top: 13%;
-      font-size: 30px;
-      font-family: "Montserrat Subrayada";
-      font-weight: 700;
-      font-style: normal;
-    }
+.conclusion_section .title h1{
+  margin: 0 0 4vh;
+  font-size: clamp(28px, 1.2rem + 1.5vw, 48px);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.conclusion_section .conclusion_text p{
+  max-width: 800px;
+  margin: 0;
+  text-align: center;
+}
+
+.conclusion_section .footer{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 32px;
+}
+
+.conclusion_section .thanks p{
+  margin: 0 0 6vh;
+  font-size: clamp(20px, 1rem + 1vw, 30px);
+  font-family: "Montserrat Subrayada";
+  font-weight: 700;
+}
+
+.conclusion_section .img_world img{
+  width: clamp(200px, 26vw, 380px);
+}
+
+.conclusion_section .icon_home{
+  position: absolute;
+  top: clamp(24px, 6vh, 72px);
+  left: var(--gutter);
+  z-index: 10;
+}
+.conclusion_section .icon_home img{
+  width: clamp(36px, 4vw, 60px);
+}
+
+
+/* ! TABLET */
+@media (max-width: 1024px){
+  .tree_section .topbar{
+    flex-wrap: wrap;
   }
-  
-  .icon_home{
-    position: absolute;
-    margin-left: 9%;
-    width: fit-content;
-    top: 8%;
-    cursor: pointer;
+}
+
+
+/* ! CELULAR */
+@media (max-width: 768px){
+  .tree_section,
+  .industry_section,
+  .talk_section,
+  .apresentation_section,
+  .project_section,
+  .conclusion_section{
+    --gutter: 20px;
+    /* Espaço para as setas, que ficam no rodapé */
+    padding-bottom: 76px;
   }
-  
-  .img_world{
-    right: 0;
-    float: right;
-    margin-right: 65px;
+
+  .arrow_left,
+  .arrow_right{
+    top: auto;
+    bottom: 16px;
+    width: 44px !important;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(9, 28, 42, 0.7);
+    transform: none;
   }
-  
   .arrow_left{
-    position: absolute;
-    margin-left: 4vh;
-    top: 45vh;
+    left: 16px;
+  }
+  .arrow_right{
+    right: 16px;
+  }
+
+  /* Imagens de rodapé ficam acima das setas */
+  .img_industry,
+  .img_apresentation,
+  .img_apresentation2,
+  .line1{
+    margin-bottom: -76px;
+  }
+
+  .tree_section .titulo h1{
+    white-space: normal;
+  }
+  .tree_section .hero{
+    grid-template-columns: 1fr;
+    padding: 24px 0 8px;
+  }
+  .tree_section .tree_home img{
+    max-height: 55vh;
+  }
+  .tree_section .line{
+    margin-bottom: -76px;
+  }
+
+  .industry_section .texto{
+    margin-left: 0;
+    text-align: left;
+  }
+  .industry_section .list{
+    justify-content: flex-start;
+  }
+  .industry_section .img_industry{
+    padding-top: 16px;
+  }
+
+  .talk_section{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .talk_section .texto{
+    flex: none;
+  }
+  .talk_section .img_talk{
+    flex: none;
+    width: 70%;
+    margin: 16px auto 0;
+  }
+
+  .apresentation_section .text p{
+    margin-bottom: 24px;
+  }
+  .apresentation_section .lists{
+    grid-template-columns: 1fr;
+  }
+  .apresentation_section .lists ul + ul,
+  .apresentation_section .list_2 ul{
+    margin-top: 0;
+  }
+
+  .project_section .button_project2 a{
+    display: block;
+  }
+
+  .conclusion_section{
+    padding-top: 84px;
+  }
+  .conclusion_section .icon_home{
+    top: 24px;
+  }
+  .conclusion_section .footer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .conclusion_section .thanks p{
+    margin-bottom: 0;
   }
 }
 
 
 /* ! STYLES PWBI */
 .pwbi_section{
-  padding: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  background-image: linear-gradient(#109285, #07465B, #091C2A);
-  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100dvh;
   width: 100%;
+  padding: 2vh 2vw;
+  background-image: linear-gradient(#109285, #07465B, #091C2A);
 
   .pwbi{
-    position: absolute;
-    left: 4%;
-    top: 3vh;
+    /* Mantém a proporção 16:9 do relatório e cabe na largura e altura da tela */
+    width: min(96vw, calc(96vh * 16 / 9));
+    aspect-ratio: 16 / 9;
     -webkit-user-select: none;
     user-select: none;
 
     iframe{
-      width: 590%;
-      height: 93vh;
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  }
+}
+
+/* Telas em retrato (celular): usa toda a largura e uma altura maior */
+@media (max-width: 768px) and (orientation: portrait){
+  .pwbi_section{
+    padding: 8px;
+
+    .pwbi{
+      width: 100%;
+      aspect-ratio: auto;
+      height: calc(100dvh - 16px);
     }
   }
 }

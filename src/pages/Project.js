@@ -9,8 +9,8 @@ import apresentationproject from './img/apresentation_project.png'
 function Project() {
   return (
     <div className={styles.project_section}>
-        <Link to="/apresentation"><img src={arrowleft} className={styles.arrow_left} width={60} height={60}/></Link>
-        <Link to="/conclusion"><img src={arrowright} className={styles.arrow_right} width={60} height={60}/></Link>
+        <Link to="/apresentation"><img src={arrowleft} className={styles.arrow_left} alt="Página anterior"/></Link>
+        <Link to="/conclusion"><img src={arrowright} className={styles.arrow_right} alt="Próxima página"/></Link>
 
         <div className={styles.texto}>
             <div className={styles.text}>
@@ -23,7 +23,7 @@ function Project() {
         </div>
 
         <div className={styles.img_apresentation2}>
-            <img src={apresentationproject}/>
+            <img src={apresentationproject} alt="Pessoa analisando relatórios no computador"/>
         </div>
     </div>
   )
