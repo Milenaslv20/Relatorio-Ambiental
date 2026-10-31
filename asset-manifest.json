@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Relatorio-Ambiental/static/css/main.77f012a2.css",
-    "main.js": "/Relatorio-Ambiental/static/js/main.f7fb2b4c.js",
+    "main.css": "/Relatorio-Ambiental/static/css/main.fe0706f1.css",
+    "main.js": "/Relatorio-Ambiental/static/js/main.fd46ffd9.js",
     "static/media/apresentation_project.png": "/Relatorio-Ambiental/static/media/apresentation_project.8cdd745d7e8ff874e969.png",
     "static/media/apresentation.png": "/Relatorio-Ambiental/static/media/apresentation.0b09bff9e7ac8949ee2b.png",
     "static/media/smoke.png": "/Relatorio-Ambiental/static/media/smoke.23e3256b9eec7af515ce.png",
@@ -10,11 +10,11 @@
     "static/media/megaphone.png": "/Relatorio-Ambiental/static/media/megaphone.cf0c96123b459011fe59.png",
     "static/media/line_2.png": "/Relatorio-Ambiental/static/media/line_2.f4e69c6c2621f4deee71.png",
     "index.html": "/Relatorio-Ambiental/index.html",
-    "main.77f012a2.css.map": "/Relatorio-Ambiental/static/css/main.77f012a2.css.map",
-    "main.f7fb2b4c.js.map": "/Relatorio-Ambiental/static/js/main.f7fb2b4c.js.map"
+    "main.fe0706f1.css.map": "/Relatorio-Ambiental/static/css/main.fe0706f1.css.map",
+    "main.fd46ffd9.js.map": "/Relatorio-Ambiental/static/js/main.fd46ffd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.77f012a2.css",
-    "static/js/main.f7fb2b4c.js"
+    "static/css/main.fe0706f1.css",
+    "static/js/main.fd46ffd9.js"
   ]
 }
